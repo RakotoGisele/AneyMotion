@@ -1,0 +1,28 @@
+.col-4 
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 100%;
+    background-color: blue;
+}
+.col-4:hover
+{
+    background-color: blueviolet;
+    transform: scale(2);
+    transition-duration: 600ms;
+}
+.image {
+    border-radius: 100%;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
